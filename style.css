@@ -1,0 +1,23 @@
+@import url();
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open sans";
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .container {
+        display: flex;
+        width: 90vw;
+        gap:20px;
+    }
+    .panel {
+        border-radius: 50px;
+        background-size: cover;
+        
+    }
